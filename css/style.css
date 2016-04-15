@@ -1,0 +1,51 @@
+body{
+	margin: 0;
+}
+#header,
+#menu,
+#content,
+#footer{
+	margin-left: 10px;
+}
+#menu,
+#content{
+	margin-bottom: 10px;
+}
+#header{
+	text-align: center;
+	width: 960px;
+	background-color: darkorange;
+}
+h1{
+	margin: 10px;
+}
+#menu{
+	width: 200px;
+	height: 760px;
+	float: left;
+	background-color: darkorange;
+}
+ul li{
+	list-style: none;
+}
+#content{
+	width: 750px;
+	height:760px;
+	background-color: darkorange;
+	float: left;
+}
+#content > section > section{
+	margin: 10px;
+	height: 300px;
+	width: 700px;
+	background-color: blue;
+}
+#footer{
+	clear: both;
+	margin-top: 10px;
+	width: 960px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background-color: darkorange;
+}
